@@ -55,22 +55,7 @@
 * Proactively refactored a monolithic backend into 4 Domain-Driven Design (DDD) packages within a Turborepo monorepo, cutting module coupling by ~40%.
 * Designed PostGIS spatial queries reducing fleet routing checks to <50ms.
 * Implemented PayMongo escrow automation with double-entry ledgers and strict row-level security (RLS).
-
-#### 🧠 [Istifsar AI](https://github.com/Oninlovesjiujitsu/istifsar-ai) — [Live Demo](https://istifsar-ai.vercel.app)
-*A history exploration platform powered by a custom GraphRAG architecture.*
-* Built graph relationship traversals directly inside PostgreSQL (Supabase) using Recursive CTEs, removing external graph database overhead.
-* Engineered hybrid search (pgvector semantic similarity + Full-Text Search ranked via Reciprocal Rank Fusion).
-* Enforced strict dual-threshold gating to eliminate AI hallucinations.
-
-#### ⚡ [Autonomous Support Escalation Engine](https://github.com/Oninlovesjiujitsu/ai-automation-project) — [Live Demo](https://ai-automation-project-one.vercel.app/)
-*Agentic ticket routing system streaming reasoning while scoring responses in real-time.*
-* Asynchronously streamed Chain-of-Thought drafts from FastAPI via Server-Sent Events (SSE).
-* Integrated post-stream DeepEval evaluation and deterministic n8n webhook escalations to Slack for angry sentiment or safety failures.
-
-#### 🎙️ [Irshaad AI](https://github.com/Oninlovesjiujitsu/irshaad-ai) — [Live Demo](https://irshaad-ai.vercel.app/)
-*Conversational voice guidance platform with LiveKit WebRTC and a dedicated context extraction server.*
-* Built within a Turborepo monorepo sharing logic across Next.js and React Native.
-
+  
 ---
 
 ### 📈 GitHub Overview
